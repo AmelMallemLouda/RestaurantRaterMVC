@@ -28,7 +28,6 @@ namespace RestaurantRater.Controllers
         //Post:Resrtaurant/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public ActionResult Create(Restaurant restaurant)
         {
             if (ModelState.IsValid)
